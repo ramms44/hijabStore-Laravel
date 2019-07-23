@@ -151,11 +151,11 @@ a {
 }
 
 a:visited {
-  color: #212121;
+  color: #8600b3ab;
 }
 
 a:hover {
-  color: #878787;
+  color: #c07cff;
 }
 
 .logo a {
@@ -217,7 +217,7 @@ h1.stylish-heading:after {
   left: 0;
   width: 66px;
   height: 1px;
-  background: #212121;
+  background: #a17ab8;
   content: "";
   display: block;
 }
@@ -279,13 +279,13 @@ strong {
 }
 
 .button {
-  border: 1px solid #212121;
+  border: 1px solid #e797ff;
   padding: 12px 40px;
 }
 
 .button:hover {
   color: #e9e9e9;
-  background: #212121;
+  background: #e797ff;
 }
 
 .button-white {
@@ -830,9 +830,9 @@ form button[type=submit] {
 }
 
 header.with-background {
-  background: url("/img/triangles.svg");
+  background: url("/img/cropped-header-background.png");
   background-size: cover;
-  color: #e9e9e9;
+  color: #494949;
 }
 
 header.with-background .top-nav {
@@ -848,11 +848,11 @@ header.with-background .top-nav .logo {
 }
 
 header.with-background .top-nav ul a {
-  color: #e9e9e9;
+  color: #494949;
 }
 
 header.with-background .top-nav ul a:hover {
-  color: #d0d0d0;
+  color: #c316d3;
 }
 
 header.with-background .hero {
@@ -894,7 +894,7 @@ header .top-nav {
 header .top-nav .logo {
   font-weight: bold;
   font-size: 28px;
-  color: #e9e9e9;
+  color: #494949;
   margin-right: 58px;
 }
 
