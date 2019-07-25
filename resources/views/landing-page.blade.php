@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel Ecommerce Example</title>
+        <title>Hijab Store</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat%7CRoboto:300,400,700" rel="stylesheet">
@@ -21,8 +21,7 @@
             <header class="with-background">
                 <div class="top-nav container">
                     <div class="top-nav-left">
-                        <div class="logo">Hijab Store</div>
-                        {{ menu('main', 'partials.menus.main') }}
+                    <img width="200px" height="30px" src="img/logo yoorchic.png" alt="hero image">
                     </div>
                     <div class="top-nav-right">
                         @include('partials.menus.main-right')
@@ -30,9 +29,12 @@
                 </div> <!-- end top-nav -->
                 <div class="hero container">
                     <div class="hero-copy">
-                        <h1>Vanilla Hijab</h1>
-                        <p>Includes multiple products, categories, a shopping cart and a checkout system with Stripe integration, and rajaongkir</p>
-                       
+                    
+                        <p>
+Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan integrasi Stripe, dan rajaongkir</p>
+<div class="text-center button-container">
+                        <a href="{{ route('shop.index') }}" class="button">Belanja Sekarang</a>
+                    </div>
                     </div> <!-- end hero-copy -->
 
                     <div class="hero-image">
@@ -46,7 +48,7 @@
                 <div class="container">
                     <h1 class="text-center">Hijab Store</h1>
 
-                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vitae nisi, consequuntur illum dolores cumque pariatur quis provident deleniti nesciunt officia est reprehenderit sunt aliquid possimus temporibus enim eum hic lorem.</p>
+                    <p class="section-description">Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan integrasi Stripe, dan rajaongkir</p>
 
                     <div class="text-center button-container">
                         <a href="#" class="button">Featured</a>
@@ -73,9 +75,7 @@
 
                     </div> <!-- end products -->
 
-                    <div class="text-center button-container">
-                        <a href="{{ route('shop.index') }}" class="button">View more products</a>
-                    </div>
+                    
 
                 </div> <!-- end container -->
 
