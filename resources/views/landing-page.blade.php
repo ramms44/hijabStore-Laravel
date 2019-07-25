@@ -21,17 +21,31 @@
             <header class="with-background">
                 <div class="top-nav container">
                     <div class="top-nav-left">
+<<<<<<< HEAD
                     <img width="200px" height="30px" src="img/logo yoorchic.png" alt="hero image">
                     </div>
                     <div class="top-nav-right">
                         @include('partials.menus.main-right')
+=======
+                    <div class="logo"><img  width="40%" height="40%" src="img/logo yoorchic.png"></div>
+                    @include('partials.menus.main-right')
+>>>>>>> e14d5b2282b313b71591867a421ae6e73a7d4ffc
                     </div>
+         
+                    
                 </div> <!-- end top-nav -->
                 <div class="hero container">
                     <div class="hero-copy">
+<<<<<<< HEAD
                     
                         <p>
 Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan integrasi Stripe, dan rajaongkir</p>
+=======
+                     
+                        <p>
+Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan integrasi Stripe, dan rajaongkir</p>
+                       
+>>>>>>> e14d5b2282b313b71591867a421ae6e73a7d4ffc
 <div class="text-center button-container">
                         <a href="{{ route('shop.index') }}" class="button">Belanja Sekarang</a>
                     </div>
@@ -46,21 +60,25 @@ Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan
             <div class="featured-section">
 
                 <div class="container">
-                    <h1 class="text-center">Hijab Store</h1>
+                    <h1 class="text-center">Vanilla Hjab</h1>
 
+<<<<<<< HEAD
                     <p class="section-description">Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan integrasi Stripe, dan rajaongkir</p>
+=======
+                    <p class="section-description">Baca lebih lanjut, kemudian klik untuk melihat lebih banyak tentang penyedia layanan atau perangkat lunak atau perangkat lunak tertentu atau perangkat lain untuk digunakan untuk mendapatkan lebih baik.</p>
+>>>>>>> e14d5b2282b313b71591867a421ae6e73a7d4ffc
 
                     <div class="text-center button-container">
-                        <a href="#" class="button">Featured</a>
-                        <a href="#" class="button">On Sale</a>
+                        <a href="#" class="button">Terbaru</a>
+                        <a href="#" class="button">Yang Dijual</a>
                     </div>
 
                     {{-- <div class="tabs">
                         <div class="tab">
-                            Featured
+                            Terbaru
                         </div>
                         <div class="tab">
-                            On Sale
+                            Yang Dijual
                         </div>
                     </div> --}}
 
@@ -75,7 +93,13 @@ Termasuk beberapa produk, kategori, keranjang belanja dan sistem checkout dengan
 
                     </div> <!-- end products -->
 
+<<<<<<< HEAD
                     
+=======
+                    <div class="text-center button-container">
+                        <a href="{{ route('shop.index') }}" class="button">Lihat Lebih Banyak</a>
+                    </div>
+>>>>>>> e14d5b2282b313b71591867a421ae6e73a7d4ffc
 
                 </div> <!-- end container -->
 
