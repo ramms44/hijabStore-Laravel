@@ -1,10 +1,10 @@
 <ul>
     @guest
-    <li><a href="{{ route('register') }}">Sign Up</a></li>
-    <li><a href="{{ route('login') }}">Login</a></li>
+    <li><a href="{{ route('register') }}">Daftar</a></li>
+    <li><a href="{{ route('login') }}">Masuk</a></li>
     @else
     <li>
-        <a href="{{ route('users.edit') }}">My Account</a>
+        <a href="{{ route('users.edit') }}">Profil</a>
     </li>
     <li>
         <a href="{{ route('logout') }}"
