@@ -177,8 +177,17 @@
                         {{ presentPrice($newTax) }} <br>
                         <span class="checkout-totals-total">{{ presentPrice($newTotal) }}</span>
 
+
                     </div>
                 </div> <!-- end checkout-totals -->
+                <br>
+                <h3>Rajaongkir Cek Ongkos Kirim</h3>
+                <br>
+                <div data-theme="light" id="rajaongkir-widget"></div>
+               
+
+<script type="text/javascript" src="//rajaongkir.com/script/widget.js"></script>
+                
             </div>
 
         </div> <!-- end checkout-section -->
